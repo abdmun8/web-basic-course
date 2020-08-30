@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papan Skor</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <h1>Pertandingan Futsal</h1>
+    <div class="team-container">
+      <div class="team">
+        <h4>Team A</h4>
+        <p>Skor</p>
+        <h3>0</h3>
+      </div>
+
+      <h3 class="vs">VS</h3>
+      <div class="team">
+        <h4>Team B</h4>
+        <p>Skor</p>
+        <h3>0</h3>
+      </div>
+    </div>
+    <div class="form-container">
+      <form class="form" method="post" action="/">
+        <label>Input Nama team A</label>
+        <input type="text" id="team-a-name" />
+        <br />
+        <label>Input Skor team A</label>
+        <input type="number" id="team-a-skor" />
+      </form>
+      <form class="form" method="post" action="/">
+        <label>Input Nama team B</label>
+        <input type="text" id="team-a-name" />
+        <br />
+        <label>Input Skor team B</label>
+        <input type="number" id="team-a-skor" />
+      </form>
+      <button type="button">Input</button>
+    </div>
+    <div class="hasil-container">
+      <p>Hasilnya adalah</p>
+      <button type="button">Cek hasil</button>
+      <h1 class="hasil-text">Hasil Pertandingan</h1>
+      <button type="button" onclick="reset()">Reset</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

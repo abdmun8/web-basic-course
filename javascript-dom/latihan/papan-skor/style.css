@@ -1,0 +1,44 @@
+.team-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.vs {
+  margin: 0 20px;
+}
+
+.team {
+  text-align: center;
+}
+
+.form {
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hasil-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hasil-text {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
